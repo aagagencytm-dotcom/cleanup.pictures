@@ -51,7 +51,7 @@ export default function FirebaseProvider(props: Props) {
     const analytics = getAnalytics(app)
 
     const recaptchaSiteKey = process.env.REACT_APP_RECAPTCHA_SITE_KEY
-    if (!recaptchaSiteKey) {
+    if (!6LdIadsrAAAAAEdHdyKM5AwT881XTgBcqk5joJZN) {
       throw new Error('missing env REACT_APP_RECAPTCHA_SITE_KEY')
     }
 
